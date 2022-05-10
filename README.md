@@ -1,12 +1,10 @@
 # Laravel Profanity Validator
 
-[![Latest Stable Version](https://poser.pugx.org/arandilopez/laravel-profane/v/stable)](https://packagist.org/packages/arandilopez/laravel-profane)
-[![Total Downloads](https://poser.pugx.org/arandilopez/laravel-profane/downloads)](https://packagist.org/packages/arandilopez/laravel-profane)
-[![License](https://poser.pugx.org/arandilopez/laravel-profane/license)](https://packagist.org/packages/arandilopez/laravel-profane)
-[![Daily Downloads](https://poser.pugx.org/arandilopez/laravel-profane/d/daily)](https://packagist.org/packages/arandilopez/laravel-profane)
-[![composer.lock](https://poser.pugx.org/arandilopez/laravel-profane/composerlock)](https://packagist.org/packages/arandilopez/laravel-profane)
-![](https://travis-ci.org/arandilopez/laravel-profane.svg?branch=master)
-[![StyleCI](https://styleci.io/repos/63648834/shield?branch=master)](https://styleci.io/repos/63648834)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/envatic/laravel-profane.svg?style=flat-square)](https://packagist.org/packages/envatic/laravel-profane)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![run-tests](https://github.com/envatic/laravel-profane/actions/workflows/run-tests.yml/badge.svg)](https://github.com/envatic/laravel-profane/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/envatic/laravel-profane.svg?style=flat-square)](https://packagist.org/packages/envatic/laravel-profane)
+[![Check & fix styling](https://github.com/envatic/laravel-profane/actions/workflows/php-cs-fixer.yml/badge.svg)](https://github.com/envatic/laravel-profane/actions/workflows/php-cs-fixer.yml)
 
 I made this package to perform a validation for swearwords using Laravel validation service.
 
@@ -15,7 +13,7 @@ I made this package to perform a validation for swearwords using Laravel validat
 Install via composer
 
 ```shell
-composer require arandilopez/laravel-profane
+composer require envatic/laravel-profane
 ```
 
 ## Configuration
@@ -62,7 +60,7 @@ class MyController extends Controller
 }
 ```
 
-The validator will load the default locale in your `config/app.php` file configuration which by is `en`. **If your locale is not supported, please [post an issue for this project](https://github.com/arandilopez/laravel-profane/issues)**
+The validator will load the default locale in your `config/app.php` file configuration which by is `en`. **If your locale is not supported, please [post an issue for this project](https://github.com/envatic/laravel-profane/issues)**
 
 If you want to use others dictionaries you can pass them as parameters in the validator.
 
@@ -124,14 +122,14 @@ This fixes known issues when you get a error in validation for words like `class
 
 ## Getting Help
 
-If you're stuck getting something to work, or need to report a bug, please [post an issue in the Github Issues for this project](https://github.com/arandilopez/laravel-profane/issues).
+If you're stuck getting something to work, or need to report a bug, please [post an issue in the Github Issues for this project](https://github.com/envatic/laravel-profane/issues).
 
 ## Contributing
 
 If you're interesting in contributing code to this project, clone it by running:
 
 ```shell
-git clone git@github.com:arandilopez/laravel-profane.git
+git clone git@github.com:envatic/laravel-profane.git
 ```
 
 Please read the [CONTRIBUTING](CONTRIBUTING.md) file.
@@ -142,8 +140,8 @@ _Thanks to [@dorianneto](https://github.com/dorianneto) for his contributions._
 
 ### Supported Locales
 
-- English ( provided by [@arandilopez](https://github.com/arandilopez) )
-- Spanish ( provided by [@arandilopez](https://github.com/arandilopez) and [@xDidier901](https://github.com/xDidier901))
+- English ( provided by [@envatic](https://github.com/envatic) )
+- Spanish ( provided by [@envatic](https://github.com/envatic) and [@xDidier901](https://github.com/xDidier901))
 - Italian ( provided by [@aletundo](https://github.com/aletundo) )
 - Brazilian Portuguese ( provided by [@ianrodriguesbr](https://github.com/ianrodriguesbr)  and [@LeonardoTeixeira](https://github.com/LeonardoTeixeira))
 - Traditional Chinese ( provided by [@Nationalcat](https://github.com/Nationalcat) )
