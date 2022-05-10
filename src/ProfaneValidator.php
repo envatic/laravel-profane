@@ -38,7 +38,7 @@ class ProfaneValidator
             $this->setDictionary($parameters);
         }
 
-        return !$this->isProfane($value);
+        return ! $this->isProfane($value);
     }
 
     /**
@@ -56,7 +56,7 @@ class ProfaneValidator
             $this->setDictionary($parameters);
         }
 
-        return !$this->isProfane($value, true);
+        return ! $this->isProfane($value, true);
     }
 
     /**
